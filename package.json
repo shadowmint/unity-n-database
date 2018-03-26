@@ -1,0 +1,28 @@
+{
+  "name": "unity-n-database",
+  "version": "0.0.1",
+  "description": "High level abstractions on top of database access",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowmint/unity-n-database.git"
+  },
+  "files": [
+    "index.js",
+    "scripts",
+    "src"
+  ],
+  "author": "douglas.linder@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shadowmint/unity-n-database/issues"
+  },
+  "homepage": "https://github.com/shadowmint/unity-n-database",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "unity-3rdparty-sqlite-net": "github:shadowmint/unity-3rdparty-sqlite-net#1.4.118",
+    "unity-n-promises": "github:shadowmint/unity-n-promises#1.1.0"
+  }
+}

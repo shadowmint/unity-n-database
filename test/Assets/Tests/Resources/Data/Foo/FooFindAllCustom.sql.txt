@@ -1,0 +1,5 @@
+SELECT
+  FooId,
+  Key   [Value],
+  Value [Key]
+FROM Foo;        
